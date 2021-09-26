@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link rel="icon" href="favicon.ico" />
+  <title>Reservia par OpenClassrooms - Trouvez votre hébergement pour des vacances de rêve !</title>
+  <meta name="title" content="Reservia par OpenClassrooms - Trouvez votre hébergement pour des vacances de rêve !">
+  <meta name="description" content="Reservia, en plein centre de ville ou en pleine nature, rechercher le meilleur hébergement pour des vacances de rêve.
+  Projet par OpenClassrooms.">
+  <link rel="stylesheet" href="style/style.css">
+  <script src="https://kit.fontawesome.com/406da18a0b.js" crossorigin="anonymous" defer ></script>
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="header">
+    <img class="headerImg" src="./img/reservia.svg" alt="Reservia">
+    <nav class="headerNav">
+      <a class="headerNavLink" href="#hebergement" data-active="true">Hébergement</a>
+      <a class="headerNavLink" href="#activité" data-active="false">Activités</a>
+    </nav>
+    <a class="headerSignup" href="#">S'inscrire</a>
+  </header>
+  <!-- HEADER -->
+
+  <!-- MAIN -->
+  <main class="main">
+    <!-- RECHERCHE -->
+    <section class="recherche">
+      <header class="rechercheHeader">
+        <h1 class="rchercheHeaderTitle">Trouvez votre hébergement pour des vacances de rêve</h1>
+        <p class="rechercheHeaderSubtitle">En plein centre de ville ou en pleine nature</p>
+      </header>
+      <form class="rechercheForm" action="proceedFrom.html" method="GET">
+        <span class="rechercheFormIcon">
+          <i class="fas fa-map-marker-alt rechercheFormIconIcon"></i>
+        </span>
+        <input class="rechercheFormSearchinput" type="search" placeholder="Marseille, France" size="1">
+        <button class="rechercheFormSubmitinput">
+          <span class="rechercheFormSubmitinputText">Rechercher</span>
+        </button>
+      </form>
+      <div class="rechercheFiltres">
+        <h2 class="rechercheFiltresTitle">Filtres</h2>
+        <div class="rechercheFiltresFiltre">
+          <div class="rechercheFiltresFiltreIcon">
+            <i class="fas fa-money-bill-wave rechercheFiltresFiltreIconIcon"></i>
+          </div>
+          <span class="rechercheFiltresFiltreTitle">Économique</span>
+        </div>
+        <div class="rechercheFiltresFiltre">
+          <div class="rechercheFiltresFiltreIcon">
+            <i class="fas fa-child rechercheFiltresFiltreIconIcon"></i>
+          </div>
+          <span class="rechercheFiltresFiltreTitle">Familial</span>
+        </div>
+        <div class="rechercheFiltresFiltre">
+          <div class="rechercheFiltresFiltreIcon">
+            <i class="fas fa-heart rechercheFiltresFiltreIconIcon"></i>
+          </div>
+          <span class="rechercheFiltresFiltreTitle">Romantique</span>
+        </div>
+        <div class="rechercheFiltresFiltre">
+          <div class="rechercheFiltresFiltreIcon">
+            <i class="fas fa-dog rechercheFiltresFiltreIconIcon"></i>
+          </div>
+          <span class="rechercheFiltresFiltreTitle">Animaux autorisés</span>
+        </div>
+      </div>
+      <div class="rechercheResultat">
+        <div class="rechercheResultatIcon"><i class="fas fa-info rechercheResultatIconIcon"></i></div>
+        <p class="rechercheResultatText">Plus de 500 logements sont disponibles dans cette ville</p>
+      </div>
+    </section>
+    <!-- RECHERCHE -->
+
+    <!-- HEBERGEMENT -->
+    <section class="hebergement" id="hebergement">
+      <div class="hebergementMain">
+        <header class="hebergementMainHeader">
+          <h2 class="hebergementMainHeaderTitle">Hébergement à Marseille</h2>
+        </header>
+        <article class="hebergementMainChoix">
+          <a href="#">
+            <figure class="hebergementMainChoixFigure">
+              <img 
+                class="hebergementMainChoixFigureImg"
+                src=""
+                alt="Chambre."
+              >
+              <figcaption class="hebergementMainChoixFigureTitle">
+                <h3 class="hebergementMainChoixFigureTitleTitle">Auberge la Cannebière</h3>
+              </figcaption>
+            </figure>
+            <p class="hebergementMainChoixDesc">Nuit à partir de <strong class="hebergementMainChoixDescPrix">25€</strong></p>
+            <div class="hebergementMainChoixEtoile">
+              <i class="fas fa-star hebergementMainChoixEtoileIcon" data-active="true"></i>
+              <i class="fas fa-star hebergementMainChoixEtoileIcon" data-active="true"></i>
+              <i class="fas fa-star hebergementMainChoixEtoileIcon" data-active="true"></i>
+              <i class="fas fa-star hebergementMainChoixEtoileIcon" data-active="true"></i>
+              <i class="fas fa-star hebergementMainChoixEtoileIcon" data-active="false"></i>
+            </div>
+          </a>
+        </article>
+        <article class="hebergementMainChoix">
+          <a href="#">
+            <figure class="hebergementMainChoixFigure">
+              <img 
+                class="hebergementMainChoixFigureImg"
+                src=""
+                alt="Chambre."
+              >
+              <figcaption class="hebergementMainChoixFigureTitle">
+                <h3 class="hebergementMainChoixFigureTitleTitle">Hôtel du port</h3>
+              </figcaption>
+            </figure>
+            <p class="hebergementMainChoixDesc">Nuit à partir de <strong class="hebergementMainChoixDescPrix">52€</strong></p>
+            <div class="hebergementMainCardEtoile">
+              <i class="fas fa-star hebergementMainChoixEtoileIcon" data-active="true"></i>
+              <i class="fas fa-star hebergementMainChoixEtoileIcon" data-active="true"></i>
+              <i class="fas fa-star hebergementMainChoixEtoileIcon" data-active="true"></i>
+              <i class="fas fa-star hebergementMainChoixEtoileIcon" data-active="true"></i>
+              <i class="fas fa-star hebergementMainChoixEtoileIcon" data-active="true"></i>
+            </div>
+          </a>
+        </article>
+        <article class="hebergementMainChoix">
+          <a href="#">
+            <figure class="hebergementMainChoixFigure">
+              <img 
+                class="hebergementMainChoixFigureImg"
+                src=""
+                alt="Chambre."
+              >
+              <figcaption class="hebergementMainChoixFigureTitle">
+                <h3 class="hebergementMainChoixFigureTitleTitle">Hôtel Les mouettes</h3>
+              </figcaption>
+            </figure>
+            <p class="hebergementMainChoixDesc">Nuit à partir de <strong class="hebergementMainChoixDescPrix">76€</strong></p>
+            <div class="hebergementMainChoixEtoile">
+              <i class="fas fa-star hebergementMainChoixEtoileIcon" data-active="true"></i>
+              <i class="fas fa-star hebergementMainChoixEtoileIcon" data-active="true"></i>
+              <i class="fas fa-star hebergementMainChoixEtoileIcon" data-active="true"></i>
+              <i class="fas fa-star hebergementMainChoixEtoileIcon" data-active="true"></i>
+              <i class="fas fa-star hebergementMainChoixEtoileIcon" data-active="false"></i>
+            </div>
+          </a>
+        </article>
+        <article class="hebergementMainChoix">
+          <a href="#">
+            <figure class="hebergementMainChoixFigure">
+              <img 
+                class="hebergementMainChoixFigureImg"
+                src=""
+                alt="Chambre."
+              >
+              <figcaption class="hebergementMainChoixFigureTitle">
+                <h3 class="hebergementMainChoixFigureTitleTitle">Auberge de la mer</h3>
+              </figcaption>
+            </figure>
+            <p class="hebergementMainChoixDesc">Nuit à partir de <strong class="hebergementMainChoixDescPrix">46€</strong></p>
+            <div class="hebergementMainChoixEtoile">
+              <i class="fas fa-star hebergementMainChoixEtoileIcon" data-active="true"></i>
+              <i class="fas fa-star hebergementMainChoixEtoileIcon" data-active="true"></i>
+              <i class="fas fa-star hebergementMainChoixEtoileIcon" data-active="true"></i>
+              <i class="fas fa-star hebergementMainChoixEtoileIcon" data-active="false"></i>
+              <i class="fas fa-star hebergementMainChoixEtoileIcon" data-active="false"></i>
+            </div>
+          </a>
+        </article>
+        <article class="hebergementMainChoix">
+          <a href="#">
+            <figure class="hebergementMainChoixFigure">
+              <img 
+                class="hebergementMainChoixFigureImg"
+                src=""
+                alt="Chambre."
+              >
+              <figcaption class="hebergementMainChoixFigureTitle">
+                <h3 class="hebergementMainChoixFigureTitleTitle">Auberge Le Panier</h3>
+              </figcaption>
+            </figure>
+            <p class="hebergementMainChoixDesc">Nuit à partir de <strong class="hebergementMainChoixDescPrix">23€</strong></p>
+            <div class="hebergementMainChoixEtoile">
+              <i class="fas fa-star hebergementMainChoixEtoileIcon" data-active="true"></i>
+              <i class="fas fa-star hebergementMainChoixEtoileIcon" data-active="true"></i>
+              <i class="fas fa-star hebergementMainChoixEtoileIcon" data-active="true"></i>
+              <i class="fas fa-star hebergementMainChoixEtoileIcon" data-active="true"></i>
+              <i class="fas fa-star hebergementMainChoixEtoileIcon" data-active="false"></i>
+            </div>
+          </a>
+        </article>
+        <article class="hebergementMainChoix">
+          <a href="#">
+            <figure class="hebergementMainChoixFigure">
+              <img 
+                class="hebergementMainChoixFigureImg"
+                src=""
+                alt="Chambre."
+              >
+              <figcaption class="hebergementMainChoixFigureTitle">
+                <h3 class="hebergementMainChoixFigureTitleTitle">Hôtel chez Amina</h3>
+              </figcaption>
+            </figure>
+            <p class="hebergementMainChoixDesc">Nuit à partir de <strong class="hebergementMainChoixDescPrix">96€</strong></p>
+            <div class="hebergementMainChoixEtoile">
+              <i class="fas fa-star hebergementMainChoixEtoileIcon" data-active="true"></i>
+              <i class="fas fa-star hebergementMainChoixEtoileIcon" data-active="true"></i>
+              <i class="fas fa-star hebergementMainChoixEtoileIcon" data-active="true"></i>
+              <i class="fas fa-star hebergementMainChoixEtoileIcon" data-active="true"></i>
+              <i class="fas fa-star hebergementMainChoixEtoileIcon" data-active="true"></i>
+            </div>
+          </a>
+        </article>
+        <a class="hebergementMainVoirplus" href="#">Afficher plus</a>
+      </div>
+
+      <aside class="hebergementPopulaire">
+        <h2 class="hebergementPopulaireTitle">Les plus populaire <i class="fas fa-chart-line"></i></h2>
+        <article class="hebergementMainChoix hebergementPopulaireChoix">
+          <a class="hebergementPopulaireWrapcontent" href="#">
+            <div class="hebergementPopulaireWrapcontentImg">
+              <img 
+                class="hebergementPopularWrapcontentWrapimgImg"
+                src=""
+                alt="Chambre avec un lit superposé avec une fenêtre vu sur la ville."
+              >
+            </div>
+            <div class="hebergementPopularWrapcontentContent">
+              <h3 class="hebergementMainCardFigureCaptionTitle">Hôtel Le soleil du matin</h3>
+              <p class="hebergementMainCardDesc">Nuit à partir de <strong class="hebergementMainCardDescPrice">128€</strong></p>
+              <div class="hebergementPopularWrapcontentContentWhitespace"></div>
+              <div class="hebergementMainCardGrade">
+                <i class="fas fa-star hebergementMainCardGradeIcon" data-active="true"></i>
+                <i class="fas fa-star hebergementMainCardGradeIcon" data-active="true"></i>
+                <i class="fas fa-star hebergementMainCardGradeIcon" data-active="true"></i>
+                <i class="fas fa-star hebergementMainCardGradeIcon" data-active="true"></i>
+                <i class="fas fa-star hebergementMainCardGradeIcon" data-active="true"></i>
+              </div>
+            </div>
+          </a>
+        </article>
+        <article class="hebergementMainCard hebergementPopularCard">
+          <a class="hebergementPopularWrapcontent" href="#">
+            <div class="hebergementPopularWrapcontentWrapimg">
+              <img 
+                class="hebergementPopularWrapcontentWrapimgImg"
+                src=""
+                alt="Chambre avec un lit superposé avec une fenêtre vu sur la ville."
+              >
+            </div>
+            <div class="hebergementPopularWrapcontentContent">
+              <h3 class="hebergementMainCardFigureCaptionTitle">Au coeur de l'eau Chambres d'hôtes</h3>
+              <p class="hebergementMainCardDesc">Nuit à partir de <strong class="hebergementMainCardDescPrice">71€</strong></p>
+              <div class="hebergementPopularWrapcontentContentWhitespace"></div>
+              <div class="hebergementMainCardGrade">
+                <i class="fas fa-star hebergementMainCardGradeIcon" data-active="true"></i>
+                <i class="fas fa-star hebergementMainCardGradeIcon" data-active="true"></i>
+                <i class="fas fa-star hebergementMainCardGradeIcon" data-active="true"></i>
+                <i class="fas fa-star hebergementMainCardGradeIcon" data-active="true"></i>
+                <i class="fas fa-star hebergementMainCardGradeIcon" data-active="false"></i>
+              </div>
+            </div>
+          </a>
+        </article>
+        <article class="hebergementMainCard hebergementPopularCard">
+          <a class="hebergementPopularWrapcontent" href="#">
+            <div class="hebergementPopularWrapcontentWrapimg">
+              <img 
+                class="hebergementPopularWrapcontentWrapimgImg"
+                src=""
+                alt="Chambre avec un lit superposé avec une fenêtre vu sur la ville."
+              >
+            </div>
+            <div class="hebergementPopularWrapcontentContent">
+              <h3 class="hebergementMainCardFigureCaptionTitle">Hôtel Tout bleu et Blanc</h3>
+              <p class="hebergementMainCardDesc">Nuit à partir de <strong class="hebergementMainCardDescPrice">68€</strong></p>
+              <div class="hebergementPopularWrapcontentContentWhitespace"></div>
+              <div class="hebergementMainCardGrade">
+                <i class="fas fa-star hebergementMainCardGradeIcon" data-active="true"></i>
+                <i class="fas fa-star hebergementMainCardGradeIcon" data-active="true"></i>
+                <i class="fas fa-star hebergementMainCardGradeIcon" data-active="true"></i>
+                <i class="fas fa-star hebergementMainCardGradeIcon" data-active="true"></i>
+                <i class="fas fa-star hebergementMainCardGradeIcon" data-active="false"></i>
+              </div>
+            </div>
+          </a>
+        </article>
+      </aside>
+      
+    </section>
+    <!-- HEBERGEMENT -->
+
+    <!-- ACTIVITE -->
+    
+    <!-- ACTIVITE -->
+
+  </main>
+  <!-- MAIN -->
+
+  <!-- FOOTER -->
+  
+
+
+  <!-- FOOTER -->
+</body>
+</html>
