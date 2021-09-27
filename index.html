@@ -2,11 +2,7 @@
 <html>
 <head>
   <meta charset="UTF-8">
-  <link rel="icon" href="favicon.ico" />
-  <title>Reservia par OpenClassrooms - Trouvez votre hébergement pour des vacances de rêve !</title>
-  <meta name="title" content="Reservia par OpenClassrooms - Trouvez votre hébergement pour des vacances de rêve !">
-  <meta name="description" content="Reservia, en plein centre de ville ou en pleine nature, rechercher le meilleur hébergement pour des vacances de rêve.
-  Projet par OpenClassrooms.">
+  <title>Reservia</title>
   <link rel="stylesheet" href="style/style.css">
   <script src="https://kit.fontawesome.com/406da18a0b.js" crossorigin="anonymous" defer ></script>
 </head>
@@ -17,7 +13,7 @@
     <img class="headerImg" src="./img/reservia.svg" alt="Reservia">
     <nav class="headerNav">
       <a class="headerNavLink" href="#hebergement" data-active="true">Hébergement</a>
-      <a class="headerNavLink" href="#activité" data-active="false">Activités</a>
+      <a class="headerNavLink" href="#activite" data-active="false">Activités</a>
     </nav>
     <a class="headerSignup" href="#">S'inscrire</a>
   </header>
@@ -25,205 +21,206 @@
 
   <!-- MAIN -->
   <main class="main">
-    <!-- RECHERCHE -->
-    <section class="recherche">
-      <header class="rechercheHeader">
-        <h1 class="rchercheHeaderTitle">Trouvez votre hébergement pour des vacances de rêve</h1>
-        <p class="rechercheHeaderSubtitle">En plein centre de ville ou en pleine nature</p>
+    <!-- SEARCH -->
+    <section class="search">
+      <header class="searchHeader">
+        <h1 class="searchHeaderTitle">Trouvez votre hébergement pour des vacances de rêve</h1>
+        <p class="searchHeaderSubtitle">En plein centre de ville ou en pleine nature</p>
       </header>
-      <form class="rechercheForm" action="proceedFrom.html" method="GET">
-        <span class="rechercheFormIcon">
-          <i class="fas fa-map-marker-alt rechercheFormIconIcon"></i>
+      <form class="searchForm" action="proceedFrom.html" method="GET">
+        <span class="searchFormWrapicon">
+          <i class="fas fa-map-marker-alt searchFormWrapiconIcon"></i>
         </span>
-        <input class="rechercheFormSearchinput" type="search" placeholder="Marseille, France" size="1">
-        <button class="rechercheFormSubmitinput">
-          <span class="rechercheFormSubmitinputText">Rechercher</span>
+        <input class="searchFormSearchinput" type="search" placeholder="Marseille, France" size="1">
+        <button class="searchFormSubmitinput">
+          <span class="searchFormSubmitinputText">Rechercher</span>
+          <i class="searchFormSubmitinputIcon fas fa-search"></i>
         </button>
       </form>
-      <div class="rechercheFiltres">
-        <h2 class="rechercheFiltresTitle">Filtres</h2>
-        <div class="rechercheFiltresFiltre">
-          <div class="rechercheFiltresFiltreIcon">
-            <i class="fas fa-money-bill-wave rechercheFiltresFiltreIconIcon"></i>
+      <div class="searchFilters">
+        <h2 class="searchFiltersTitle">Filtres</h2>
+        <div class="searchFiltersFilter">
+          <div class="searchFiltersFilterWrapicon">
+            <i class="fas fa-money-bill-wave searchFiltersFilterWrapiconIcon"></i>
           </div>
-          <span class="rechercheFiltresFiltreTitle">Économique</span>
+          <span class="searchFiltersFilterTitle">Économique</span>
         </div>
-        <div class="rechercheFiltresFiltre">
-          <div class="rechercheFiltresFiltreIcon">
-            <i class="fas fa-child rechercheFiltresFiltreIconIcon"></i>
+        <div class="searchFiltersFilter">
+          <div class="searchFiltersFilterWrapicon">
+            <i class="fas fa-child searchFiltersFilterWrapiconIcon"></i>
           </div>
-          <span class="rechercheFiltresFiltreTitle">Familial</span>
+          <span class="searchFiltersFilterTitle">Familial</span>
         </div>
-        <div class="rechercheFiltresFiltre">
-          <div class="rechercheFiltresFiltreIcon">
-            <i class="fas fa-heart rechercheFiltresFiltreIconIcon"></i>
+        <div class="searchFiltersFilter">
+          <div class="searchFiltersFilterWrapicon">
+            <i class="fas fa-heart searchFiltersFilterWrapiconIcon"></i>
           </div>
-          <span class="rechercheFiltresFiltreTitle">Romantique</span>
+          <span class="searchFiltersFilterTitle">Romantique</span>
         </div>
-        <div class="rechercheFiltresFiltre">
-          <div class="rechercheFiltresFiltreIcon">
-            <i class="fas fa-dog rechercheFiltresFiltreIconIcon"></i>
+        <div class="searchFiltersFilter">
+          <div class="searchFiltersFilterWrapicon">
+            <i class="fas fa-dog searchFiltersFilterWrapiconIcon"></i>
           </div>
-          <span class="rechercheFiltresFiltreTitle">Animaux autorisés</span>
+          <span class="searchFiltersFilterTitle">Animaux autorisés</span>
         </div>
       </div>
-      <div class="rechercheResultat">
-        <div class="rechercheResultatIcon"><i class="fas fa-info rechercheResultatIconIcon"></i></div>
-        <p class="rechercheResultatText">Plus de 500 logements sont disponibles dans cette ville</p>
+      <div class="searchResult">
+        <div class="searchResultWrapicon"><i class="fas fa-info searchResultWrapiconIcon"></i></div>
+        <p class="searchResultText">Plus de 500 logements sont disponibles dans cette ville</p>
       </div>
     </section>
-    <!-- RECHERCHE -->
+    <!-- SEARCH -->
 
-    <!-- HEBERGEMENT -->
+    <!-- hebergement -->
     <section class="hebergement" id="hebergement">
       <div class="hebergementMain">
         <header class="hebergementMainHeader">
           <h2 class="hebergementMainHeaderTitle">Hébergement à Marseille</h2>
         </header>
-        <article class="hebergementMainChoix">
+        <article class="hebergementMainCard">
           <a href="#">
-            <figure class="hebergementMainChoixFigure">
-              <img 
-                class="hebergementMainChoixFigureImg"
-                src=""
-                alt="Chambre."
+            <figure class="hebergementMainCardFigure">
+              <img
+                      class="hebergementMainCardFigureImg"
+                      src="./img/hebergement/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg"
+                      alt="Chambre avec un lit superposé avec une fenêtre vu sur la ville."
               >
-              <figcaption class="hebergementMainChoixFigureTitle">
-                <h3 class="hebergementMainChoixFigureTitleTitle">Auberge la Cannebière</h3>
+              <figcaption class="hebergementMainCardFigureCaption">
+                <h3 class="hebergementMainCardFigureCaptionTitle">Auberge la Cannebière</h3>
               </figcaption>
             </figure>
-            <p class="hebergementMainChoixDesc">Nuit à partir de <strong class="hebergementMainChoixDescPrix">25€</strong></p>
-            <div class="hebergementMainChoixEtoile">
-              <i class="fas fa-star hebergementMainChoixEtoileIcon" data-active="true"></i>
-              <i class="fas fa-star hebergementMainChoixEtoileIcon" data-active="true"></i>
-              <i class="fas fa-star hebergementMainChoixEtoileIcon" data-active="true"></i>
-              <i class="fas fa-star hebergementMainChoixEtoileIcon" data-active="true"></i>
-              <i class="fas fa-star hebergementMainChoixEtoileIcon" data-active="false"></i>
+            <p class="hebergementMainCardDesc">Nuit à partir de <strong class="hebergementMainCardDescPrice">25€</strong></p>
+            <div class="hebergementMainCardGrade">
+              <i class="fas fa-star hebergementMainCardGradeIcon" data-active="true"></i>
+              <i class="fas fa-star hebergementMainCardGradeIcon" data-active="true"></i>
+              <i class="fas fa-star hebergementMainCardGradeIcon" data-active="true"></i>
+              <i class="fas fa-star hebergementMainCardGradeIcon" data-active="true"></i>
+              <i class="fas fa-star hebergementMainCardGradeIcon" data-active="false"></i>
             </div>
           </a>
         </article>
-        <article class="hebergementMainChoix">
+        <article class="hebergementMainCard">
           <a href="#">
-            <figure class="hebergementMainChoixFigure">
-              <img 
-                class="hebergementMainChoixFigureImg"
-                src=""
-                alt="Chambre."
+            <figure class="hebergementMainCardFigure">
+              <img
+                      class="hebergementMainCardFigureImg"
+                      src="./img/hebergement/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg"
+                      alt="Chambre avec un lit superposé avec une fenêtre vu sur la ville."
               >
-              <figcaption class="hebergementMainChoixFigureTitle">
-                <h3 class="hebergementMainChoixFigureTitleTitle">Hôtel du port</h3>
+              <figcaption class="hebergementMainCardFigureCaption">
+                <h3 class="hebergementMainCardFigureCaptionTitle">Hôtel du port</h3>
               </figcaption>
             </figure>
-            <p class="hebergementMainChoixDesc">Nuit à partir de <strong class="hebergementMainChoixDescPrix">52€</strong></p>
-            <div class="hebergementMainCardEtoile">
-              <i class="fas fa-star hebergementMainChoixEtoileIcon" data-active="true"></i>
-              <i class="fas fa-star hebergementMainChoixEtoileIcon" data-active="true"></i>
-              <i class="fas fa-star hebergementMainChoixEtoileIcon" data-active="true"></i>
-              <i class="fas fa-star hebergementMainChoixEtoileIcon" data-active="true"></i>
-              <i class="fas fa-star hebergementMainChoixEtoileIcon" data-active="true"></i>
+            <p class="hebergementMainCardDesc">Nuit à partir de <strong class="hebergementMainCardDescPrice">52€</strong></p>
+            <div class="hebergementMainCardGrade">
+              <i class="fas fa-star hebergementMainCardGradeIcon" data-active="true"></i>
+              <i class="fas fa-star hebergementMainCardGradeIcon" data-active="true"></i>
+              <i class="fas fa-star hebergementMainCardGradeIcon" data-active="true"></i>
+              <i class="fas fa-star hebergementMainCardGradeIcon" data-active="true"></i>
+              <i class="fas fa-star hebergementMainCardGradeIcon" data-active="true"></i>
             </div>
           </a>
         </article>
-        <article class="hebergementMainChoix">
+        <article class="hebergementMainCard">
           <a href="#">
-            <figure class="hebergementMainChoixFigure">
-              <img 
-                class="hebergementMainChoixFigureImg"
-                src=""
-                alt="Chambre."
+            <figure class="hebergementMainCardFigure">
+              <img
+                      class="hebergementMainCardFigureImg"
+                      src="./img/hebergement/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg"
+                      alt="Chambre avec un lit superposé avec une fenêtre vu sur la ville."
               >
-              <figcaption class="hebergementMainChoixFigureTitle">
-                <h3 class="hebergementMainChoixFigureTitleTitle">Hôtel Les mouettes</h3>
+              <figcaption class="hebergementMainCardFigureCaption">
+                <h3 class="hebergementMainCardFigureCaptionTitle">Hôtel Les mouettes</h3>
               </figcaption>
             </figure>
-            <p class="hebergementMainChoixDesc">Nuit à partir de <strong class="hebergementMainChoixDescPrix">76€</strong></p>
-            <div class="hebergementMainChoixEtoile">
-              <i class="fas fa-star hebergementMainChoixEtoileIcon" data-active="true"></i>
-              <i class="fas fa-star hebergementMainChoixEtoileIcon" data-active="true"></i>
-              <i class="fas fa-star hebergementMainChoixEtoileIcon" data-active="true"></i>
-              <i class="fas fa-star hebergementMainChoixEtoileIcon" data-active="true"></i>
-              <i class="fas fa-star hebergementMainChoixEtoileIcon" data-active="false"></i>
+            <p class="hebergementMainCardDesc">Nuit à partir de <strong class="hebergementMainCardDescPrice">76€</strong></p>
+            <div class="hebergementMainCardGrade">
+              <i class="fas fa-star hebergementMainCardGradeIcon" data-active="true"></i>
+              <i class="fas fa-star hebergementMainCardGradeIcon" data-active="true"></i>
+              <i class="fas fa-star hebergementMainCardGradeIcon" data-active="true"></i>
+              <i class="fas fa-star hebergementMainCardGradeIcon" data-active="true"></i>
+              <i class="fas fa-star hebergementMainCardGradeIcon" data-active="false"></i>
             </div>
           </a>
         </article>
-        <article class="hebergementMainChoix">
+        <article class="hebergementMainCard">
           <a href="#">
-            <figure class="hebergementMainChoixFigure">
-              <img 
-                class="hebergementMainChoixFigureImg"
-                src=""
-                alt="Chambre."
+            <figure class="hebergementMainCardFigure">
+              <img
+                      class="hebergementMainCardFigureImg"
+                      src="./img/hebergement/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg"
+                      alt="Chambre avec un lit superposé avec une fenêtre vu sur la ville."
               >
-              <figcaption class="hebergementMainChoixFigureTitle">
-                <h3 class="hebergementMainChoixFigureTitleTitle">Auberge de la mer</h3>
+              <figcaption class="hebergementMainCardFigureCaption">
+                <h3 class="hebergementMainCardFigureCaptionTitle">Auberge de la mer</h3>
               </figcaption>
             </figure>
-            <p class="hebergementMainChoixDesc">Nuit à partir de <strong class="hebergementMainChoixDescPrix">46€</strong></p>
-            <div class="hebergementMainChoixEtoile">
-              <i class="fas fa-star hebergementMainChoixEtoileIcon" data-active="true"></i>
-              <i class="fas fa-star hebergementMainChoixEtoileIcon" data-active="true"></i>
-              <i class="fas fa-star hebergementMainChoixEtoileIcon" data-active="true"></i>
-              <i class="fas fa-star hebergementMainChoixEtoileIcon" data-active="false"></i>
-              <i class="fas fa-star hebergementMainChoixEtoileIcon" data-active="false"></i>
+            <p class="hebergementMainCardDesc">Nuit à partir de <strong class="hebergementMainCardDescPrice">46€</strong></p>
+            <div class="hebergementMainCardGrade">
+              <i class="fas fa-star hebergementMainCardGradeIcon" data-active="true"></i>
+              <i class="fas fa-star hebergementMainCardGradeIcon" data-active="true"></i>
+              <i class="fas fa-star hebergementMainCardGradeIcon" data-active="true"></i>
+              <i class="fas fa-star hebergementMainCardGradeIcon" data-active="false"></i>
+              <i class="fas fa-star hebergementMainCardGradeIcon" data-active="false"></i>
             </div>
           </a>
         </article>
-        <article class="hebergementMainChoix">
+        <article class="hebergementMainCard">
           <a href="#">
-            <figure class="hebergementMainChoixFigure">
-              <img 
-                class="hebergementMainChoixFigureImg"
-                src=""
-                alt="Chambre."
+            <figure class="hebergementMainCardFigure">
+              <img
+                      class="hebergementMainCardFigureImg"
+                      src="./img/hebergement/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg"
+                      alt="Chambre avec un lit superposé avec une fenêtre vu sur la ville."
               >
-              <figcaption class="hebergementMainChoixFigureTitle">
-                <h3 class="hebergementMainChoixFigureTitleTitle">Auberge Le Panier</h3>
+              <figcaption class="hebergementMainCardFigureCaption">
+                <h3 class="hebergementMainCardFigureCaptionTitle">Auberge Le Panier</h3>
               </figcaption>
             </figure>
-            <p class="hebergementMainChoixDesc">Nuit à partir de <strong class="hebergementMainChoixDescPrix">23€</strong></p>
-            <div class="hebergementMainChoixEtoile">
-              <i class="fas fa-star hebergementMainChoixEtoileIcon" data-active="true"></i>
-              <i class="fas fa-star hebergementMainChoixEtoileIcon" data-active="true"></i>
-              <i class="fas fa-star hebergementMainChoixEtoileIcon" data-active="true"></i>
-              <i class="fas fa-star hebergementMainChoixEtoileIcon" data-active="true"></i>
-              <i class="fas fa-star hebergementMainChoixEtoileIcon" data-active="false"></i>
+            <p class="hebergementMainCardDesc">Nuit à partir de <strong class="hebergementMainCardDescPrice">23€</strong></p>
+            <div class="hebergementMainCardGrade">
+              <i class="fas fa-star hebergementMainCardGradeIcon" data-active="true"></i>
+              <i class="fas fa-star hebergementMainCardGradeIcon" data-active="true"></i>
+              <i class="fas fa-star hebergementMainCardGradeIcon" data-active="true"></i>
+              <i class="fas fa-star hebergementMainCardGradeIcon" data-active="true"></i>
+              <i class="fas fa-star hebergementMainCardGradeIcon" data-active="false"></i>
             </div>
           </a>
         </article>
-        <article class="hebergementMainChoix">
+        <article class="hebergementMainCard">
           <a href="#">
-            <figure class="hebergementMainChoixFigure">
-              <img 
-                class="hebergementMainChoixFigureImg"
-                src=""
-                alt="Chambre."
+            <figure class="hebergementMainCardFigure">
+              <img
+                      class="hebergementMainCardFigureImg"
+                      src="./img/hebergement/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg"
+                      alt="Chambre avec un lit superposé avec une fenêtre vu sur la ville."
               >
-              <figcaption class="hebergementMainChoixFigureTitle">
-                <h3 class="hebergementMainChoixFigureTitleTitle">Hôtel chez Amina</h3>
+              <figcaption class="hebergementMainCardFigureCaption">
+                <h3 class="hebergementMainCardFigureCaptionTitle">Hôtel chez Amina</h3>
               </figcaption>
             </figure>
-            <p class="hebergementMainChoixDesc">Nuit à partir de <strong class="hebergementMainChoixDescPrix">96€</strong></p>
-            <div class="hebergementMainChoixEtoile">
-              <i class="fas fa-star hebergementMainChoixEtoileIcon" data-active="true"></i>
-              <i class="fas fa-star hebergementMainChoixEtoileIcon" data-active="true"></i>
-              <i class="fas fa-star hebergementMainChoixEtoileIcon" data-active="true"></i>
-              <i class="fas fa-star hebergementMainChoixEtoileIcon" data-active="true"></i>
-              <i class="fas fa-star hebergementMainChoixEtoileIcon" data-active="true"></i>
+            <p class="hebergementMainCardDesc">Nuit à partir de <strong class="hebergementMainCardDescPrice">96€</strong></p>
+            <div class="hebergementMainCardGrade">
+              <i class="fas fa-star hebergementMainCardGradeIcon" data-active="true"></i>
+              <i class="fas fa-star hebergementMainCardGradeIcon" data-active="true"></i>
+              <i class="fas fa-star hebergementMainCardGradeIcon" data-active="true"></i>
+              <i class="fas fa-star hebergementMainCardGradeIcon" data-active="true"></i>
+              <i class="fas fa-star hebergementMainCardGradeIcon" data-active="true"></i>
             </div>
           </a>
         </article>
-        <a class="hebergementMainVoirplus" href="#">Afficher plus</a>
+        <a class="hebergementMainViewmore" href="#">Afficher plus</a>
       </div>
 
-      <aside class="hebergementPopulaire">
-        <h2 class="hebergementPopulaireTitle">Les plus populaire <i class="fas fa-chart-line"></i></h2>
-        <article class="hebergementMainChoix hebergementPopulaireChoix">
-          <a class="hebergementPopulaireWrapcontent" href="#">
-            <div class="hebergementPopulaireWrapcontentImg">
-              <img 
-                class="hebergementPopularWrapcontentWrapimgImg"
-                src=""
-                alt="Chambre avec un lit superposé avec une fenêtre vu sur la ville."
+      <aside class="hebergementPopular">
+        <h2 class="hebergementPopularTitle">Les plus populaire <i class="fas fa-chart-line"></i></h2>
+        <article class="hebergementMainCard hebergementPopularCard">
+          <a class="hebergementPopularWrapcontent" href="#">
+            <div class="hebergementPopularWrapcontentWrapimg">
+              <img
+                      class="hebergementPopularWrapcontentWrapimgImg"
+                      src="./img/hebergement/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg"
+                      alt="Chambre avec un lit superposé avec une fenêtre vu sur la ville."
               >
             </div>
             <div class="hebergementPopularWrapcontentContent">
@@ -243,10 +240,10 @@
         <article class="hebergementMainCard hebergementPopularCard">
           <a class="hebergementPopularWrapcontent" href="#">
             <div class="hebergementPopularWrapcontentWrapimg">
-              <img 
-                class="hebergementPopularWrapcontentWrapimgImg"
-                src=""
-                alt="Chambre avec un lit superposé avec une fenêtre vu sur la ville."
+              <img
+                      class="hebergementPopularWrapcontentWrapimgImg"
+                      src="./img/hebergement/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg"
+                      alt="Chambre avec un lit superposé avec une fenêtre vu sur la ville."
               >
             </div>
             <div class="hebergementPopularWrapcontentContent">
@@ -266,10 +263,10 @@
         <article class="hebergementMainCard hebergementPopularCard">
           <a class="hebergementPopularWrapcontent" href="#">
             <div class="hebergementPopularWrapcontentWrapimg">
-              <img 
-                class="hebergementPopularWrapcontentWrapimgImg"
-                src=""
-                alt="Chambre avec un lit superposé avec une fenêtre vu sur la ville."
+              <img
+                      class="hebergementPopularWrapcontentWrapimgImg"
+                      src="./img/hebergement/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg"
+                      alt="Chambre avec un lit superposé avec une fenêtre vu sur la ville."
               >
             </div>
             <div class="hebergementPopularWrapcontentContent">
@@ -287,21 +284,100 @@
           </a>
         </article>
       </aside>
-      
-    </section>
-    <!-- HEBERGEMENT -->
 
-    <!-- ACTIVITE -->
-    
-    <!-- ACTIVITE -->
+    </section>
+    <!-- hebergement -->
+
+    <!-- activite -->
+    <section class="activite" id="activite">
+      <h2 class="activiteTitle">Activités à Marseille</h2>
+      <a href="#" class="activiteCard activiteCard1">
+        <div class="activiteCardWrapimg">
+          <img
+                  class="activiteCardWrapimgImg"
+                  src="./img/activite/3_medium/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg"
+                  alt="Un port de plaisance remplis de bateau en premier plan avec une ville dans le second plan"
+          >
+        </div>
+        <h3 class="activiteCardTitle">Vieux Port</h3>
+      </a>
+      <a href="#" class="activiteCard activiteCard2">
+        <div class="activiteCardWrapimg">
+          <img
+                  class="activiteCardWrapimgImg"
+                  src="./img/activite/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg"
+                  alt="Desert rocailleux beige avec un fort elle aussi beige un peu plus loin dans l'image"
+          >
+        </div>
+        <h3 class="activiteCardTitle">Fort de Pomègues</h3>
+      </a>
+      <a href="#" class="activiteCard activiteCard3">
+        <div class="activiteCardWrapimg">
+          <img
+                  class="activiteCardWrapimgImg"
+                  src="./img/activite/3_medium/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg"
+                  alt="Paysage mélengeant roche et verdure en premier plan et une grande mer bleu en second plan"
+          >
+        </div>
+        <h3 class="activiteCardTitle">Parc National des Calanques</h3>
+      </a>
+      <a href="#" class="activiteCard activiteCard4">
+        <div class="activiteCardWrapimg">
+          <img
+                  class="activiteCardWrapimgImg"
+                  src="./img/activite/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg"
+                  alt="Grande ville assez plate mais doté d'une colline qui mets en valeur un bâtiment, certainement religieux"
+          >
+        </div>
+        <h3 class="activiteCardTitle">Notre-Dame-de-la-Garde</h3>
+      </a>
+      <a href="#" class="activiteCard activiteCard5">
+        <div class="activiteCardWrapimg">
+          <img
+                  class="activiteCardWrapimgImg"
+                  src="./img/activite/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg"
+                  alt="Longue vue sur terre en premier plan, mer en second plan et ile en troisième plan"
+          >
+        </div>
+        <h3 class="activiteCardTitle">Île du Frioul</h3>
+      </a>
+      <a href="#" class="activiteCard activiteCard6">
+        <div class="activiteCardWrapimg">
+          <img
+                  class="activiteCardWrapimgImg"
+                  src="./img/activite/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg"
+                  alt="Majestueux batiment au pierres blanches dôté d'une fontaine, tout autant majestueuse"
+          >
+        </div>
+        <h3 class="activiteCardTitle">Parc Longchamp</h3>
+      </a>
+    </section>
+    <!-- activite -->
 
   </main>
   <!-- MAIN -->
 
   <!-- FOOTER -->
-  
-
-
+  <footer class="footer">
+    <div class="footerColumnwrapper">
+      <div class="footerColumnwrapperColumn">
+        <h3 class="footerColumnwrapperColumnTitle">A propos</h3>
+        <a href="#" class="footerColumnwrapperColumnLink">Fonctionnement du site</a>
+        <a href="#" class="footerColumnwrapperColumnLink">Conditions générales de vente</a>
+        <a href="#" class="footerColumnwrapperColumnLink">Données et confidentialités</a>
+      </div>
+      <div class="footerColumnwrapperColumn">
+        <h3 class="footerColumnwrapperColumnTitle">Nos hébergement</h3>
+        <a href="#" class="footerColumnwrapperColumnLink">Charte qualité</a>
+        <a href="#" class="footerColumnwrapperColumnLink">Soumettre votre hotel</a>
+      </div>
+      <div class="footerColumnwrapperColumn">
+        <h3 class="footerColumnwrapperColumnTitle">Assitance</h3>
+        <a href="#" class="footerColumnwrapperColumnLink">Centre d'aide</a>
+        <a href="#" class="footerColumnwrapperColumnLink">Nous contacter</a>
+      </div>
+    </div>
+  </footer>
   <!-- FOOTER -->
 </body>
 </html>
