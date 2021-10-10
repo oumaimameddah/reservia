@@ -10,20 +10,17 @@ a {
 }
 
 .header {
-
     align-items: center;
     max-width: 1440px;
     margin: auto;
 }
 .headerImg {
-
     padding: 0 2rem;
     height: 2.813rem;
 }
 .headerNav {
     display: flex;
     align-items: center;
-
 }
 .headerNavLink {
     padding: 2rem;
@@ -155,4 +152,23 @@ a {
 }
 .searchFiltersFilter:last-child {
     margin-right: 0;
+}
+.hebergementMainCardFigureImg{
+    width: 10em;
+}
+.hebergement{
+    width:100%;
+}
+.hebergementMain{
+    display: flex;
+    max-width:60%;
+}
+.hebergementMainCard{
+    width:30%;
+}
+.hebergementPopular{
+    width:30%;
+}
+.hebergementMainCardFigure{
+    margin: 0;
 }
