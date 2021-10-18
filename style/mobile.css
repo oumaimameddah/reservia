@@ -319,16 +319,15 @@ a {
     width: 100%;
 }
 .footerColumnwrapper {
-    display: flex;
+    display: block;
     max-width: 100%;
-    width: 1440px;
     margin: auto;
     padding: 0 2rem;
     box-sizing: border-box;
 }
 .footerColumnwrapperColumn {
-    width: 30%;
     padding: 2rem 2rem;
+    width: 100%;
 }
 .footerColumnwrapperColumnLink {
     display: block;

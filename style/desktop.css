@@ -103,6 +103,9 @@ a {
     font-size: 1rem;
     cursor: pointer;
 }
+.searchFormSubmitinputText {
+    display: block;
+}
 .searchFormSubmitinputIcon {
     display: none !important;
 }

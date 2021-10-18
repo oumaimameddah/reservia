@@ -14,6 +14,8 @@ a {
     align-items: center;
     max-width: 1440px;
     margin: auto;
+    grid-template-columns: auto 1fr auto auto;
+    grid-template-areas: "logo . navbar button";
 }
 .headerImg {
     grid-area: logo;
@@ -35,6 +37,7 @@ a {
 }
 .headerNavLink[data-active=true] {
     color: #0065FC;
+    border-top: 3px solid #0065FC;
 }
 .headerNavLink:hover {
     color: #0065FC;
@@ -102,6 +105,9 @@ a {
     font-family: "Raleway", "Sans serif", serif;
     font-size: 1rem;
     cursor: pointer;
+}
+.searchFormSubmitinputText {
+    display: block;
 }
 .searchFormSubmitinputIcon {
     display: none !important;
