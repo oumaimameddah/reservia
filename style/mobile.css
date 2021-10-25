@@ -193,11 +193,13 @@ a {
     grid-column: 1/-1;
 }
 .hebergementMainHeaderTitle {
-    margin: 0;
+    margin-left: 0.5rem;
+    margin-bottom: -1rem;
+    margin-top: 0rem;
 }
 .hebergementMainCard {
     background-color: white;
-    padding: 0.375rem;
+    padding: 0.275rem;
     border-radius: 1.25rem;
     box-shadow: 0 0 16px #0000002e;
     transition-duration: 0.1s;
@@ -220,18 +222,18 @@ a {
     border-radius: 1rem 1rem 0 0;
 }
 .hebergementMainCardFigureCaptionTitle {
-    margin: 0.25rem 0.75rem 0 0.75rem;
+    margin: 0.25rem 0.75rem 0 1.75rem;
     font-size: 1rem;
 }
 .hebergementMainCardDesc {
-    margin: 0.25rem 0.75rem 0.25rem 0.75rem;
+    margin: 0.25rem 0.75rem 0 1.75rem;
     font-size: 0.8rem;
 }
 .hebergementMainCardDescPrice {
     font-weight: bold;
 }
 .hebergementMainCardGrade {
-    margin: 0 0.75rem 0.25rem 0.75rem;
+    margin: 0.25rem 0.75rem 0.5rem 1.75rem;
 }
 .hebergementMainCardGradeIcon[data-active=true] {
     color: #0065FC;
@@ -247,6 +249,9 @@ a {
     row-gap: 2rem;
     align-items: start;
     grid-template-rows: auto repeat(3, 1fr);
+    margin-bottom:2rem;
+    margin-left: -0.5rem;
+    margin-right: -0.5rem;
 }
 .hebergementPopularTitle {
     margin: 0;
@@ -269,7 +274,7 @@ a {
 .hebergementPopularWrapcontentWrapimgImg {
     border-radius: 1rem 0 0 1rem;
     position: absolute;
-    width: 100%;
+    width: 7rem;
     height: 100%;
     object-fit: cover;
 }
@@ -287,7 +292,7 @@ a {
 .activite {
     display: grid;
     column-gap: 2rem;
-    margin: 4rem 0;
+    margin: 2rem 0;
 }
 .activiteTitle {
     grid-column: 1/-1;
