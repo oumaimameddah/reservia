@@ -175,7 +175,7 @@ a {
 
 .hebergementWrapper, .hebergementPopular{
     background-color: #F2F2F2;
-    padding: 2rem;
+    padding: 2rem 1rem;
 }
 
 .hebergement {
@@ -206,6 +206,7 @@ a {
     cursor: pointer;
     box-sizing: border-box;
     height: 100%;
+    margin-bottom: 4%;
 }
 .hebergementMainCard:hover {
     transform: scale(1.02);
@@ -222,18 +223,19 @@ a {
     border-radius: 1rem 1rem 0 0;
 }
 .hebergementMainCardFigureCaptionTitle {
-    margin: 0.25rem 0.75rem 0 1.75rem;
-    font-size: 1rem;
+    margin: -0.25rem 0.75rem 0 1rem;
+    font-size: 1.09rem;
 }
 .hebergementMainCardDesc {
-    margin: 0.25rem 0.75rem 0 1.75rem;
+    margin: 0.25rem 0.75rem 0 1rem;
     font-size: 0.8rem;
 }
 .hebergementMainCardDescPrice {
     font-weight: bold;
 }
 .hebergementMainCardGrade {
-    margin: 0.25rem 0.75rem 0.5rem 1.75rem;
+    margin: 0.25rem 0.75rem 0.5rem 1rem;
+    font-size: 0.7rem;
 }
 .hebergementMainCardGradeIcon[data-active=true] {
     color: #0065FC;
@@ -246,7 +248,7 @@ a {
 }
 .hebergementPopular {
     display: grid;
-    row-gap: 2rem;
+    row-gap: 0.5rem;
     align-items: start;
     grid-template-rows: auto repeat(3, 1fr);
     margin-bottom:2rem;
@@ -254,7 +256,7 @@ a {
     margin-right: -0.5rem;
 }
 .hebergementPopularTitle {
-    margin: 0;
+    margin: 0 0 1.5rem 0;
     display: flex;
     justify-content: space-between;
 }
@@ -281,6 +283,7 @@ a {
 .hebergementPopularWrapcontentContent {
     display: flex;
     flex-direction: column;
+    padding: 1rem 0;
 }
 .hebergementPopularWrapcontentContentWhitespace {
     flex: 1;
