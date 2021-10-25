@@ -311,6 +311,23 @@ a {
 .activiteCard:hover {
     transform: scale(1.01);
 }
+.activiteCard1{
+    order:1;
+}
+.activiteCard2{
+    order:2;
+}
+.activiteCard3{
+    order:4;
+}
+.activiteCard4{
+    order:5;
+}.activiteCard5{
+     order:3;
+ }
+.activiteCard6{
+    order:6;
+}
 .activiteCardWrapimg {
     position: relative;
     flex: 1;
